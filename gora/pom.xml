@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.hua</groupId>
+		<artifactId>framework-entire</artifactId>
+		<version>0.0.1</version>
+	</parent>	
+
+	<artifactId>gora</artifactId>
+	<packaging>jar</packaging>
+	<name>gora</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<common.version>0.0.1</common.version>
+		<gora.version>0.6</gora.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.hua</groupId>
+			<artifactId>common</artifactId>
+			<version>${common.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.gora</groupId>
+			<artifactId>gora-core</artifactId>
+			<version>${gora.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.gora</groupId>
+			<artifactId>gora-compiler</artifactId>
+			<version>${gora.version}</version>
+		</dependency>
+		
+<!-- 		<dependency>
+			<groupId>org.apache.gora</groupId>
+			<artifactId>gora-sql</artifactId>
+			<version>${gora.version}</version>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>org.apache.gora</groupId>
+			<artifactId>gora-shims-hadoop</artifactId>
+			<version>${gora.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.gora</groupId>
+			<artifactId>gora-hbase</artifactId>
+			<version>${gora.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.gora</groupId>
+			<artifactId>sources-dist</artifactId>
+			<version>${gora.version}</version>
+		</dependency>								
+		
+	</dependencies>
+
+</project>

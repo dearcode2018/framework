@@ -1,0 +1,110 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.hua</groupId>
+		<artifactId>framework-entire</artifactId>
+		<version>0.0.1</version>
+	</parent>	
+
+	<artifactId>accumulo</artifactId>
+	<packaging>jar</packaging>
+	<name>accumulo</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<common.version>0.0.1</common.version>
+		<accumulo.version>1.7.0</accumulo.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.hua</groupId>
+			<artifactId>common</artifactId>
+			<version>${common.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-core</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-minicluster</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-fate</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-trace</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-start</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-test</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>								
+
+
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-server-base</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-tracer</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-tserver</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>
+	
+		
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-monitor</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-master</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>	
+		
+
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-shell</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.accumulo</groupId>
+			<artifactId>accumulo-examples-simple</artifactId>
+			<version>${accumulo.version}</version>
+		</dependency>
+	
+	</dependencies>
+
+</project>

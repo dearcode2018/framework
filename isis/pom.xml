@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.hua</groupId>
+		<artifactId>framework-entire</artifactId>
+		<version>0.0.1</version>
+	</parent>	
+
+	<artifactId>isis</artifactId>
+	<packaging>jar</packaging>
+	<name>isis</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<common.version>0.0.1</common.version>
+		<isis.version>1.8.0</isis.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.hua</groupId>
+			<artifactId>common</artifactId>
+			<version>${common.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.isis.core</groupId>
+			<artifactId>isis-core-unittestsupport</artifactId>
+			<version>${isis.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.isis.core</groupId>
+			<artifactId>isis-core-applib</artifactId>
+			<version>${isis.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.isis.core</groupId>
+			<artifactId>isis-core-runtime</artifactId>
+			<version>${isis.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.isis.core</groupId>
+			<artifactId>isis-core-metamodel</artifactId>
+			<version>${isis.version}</version>
+		</dependency>
+		
+<!-- 		<dependency>
+			<groupId>org.apache.isis.core</groupId>
+			<artifactId>isis-core-tck-dom</artifactId>
+			<version>${isis.version}</version>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>org.apache.isis.core</groupId>
+			<artifactId>isis-core-security</artifactId>
+			<version>${isis.version}</version>
+		</dependency>
+		
+<!-- 		<dependency>
+			<groupId>org.apache.isis.core</groupId>
+			<artifactId>isis-core-profilestore</artifactId>
+			<version>${isis.version}</version>
+		</dependency>	 -->									
+		
+	</dependencies>
+
+</project>

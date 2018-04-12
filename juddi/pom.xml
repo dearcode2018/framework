@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.hua</groupId>
+		<artifactId>framework-entire</artifactId>
+		<version>0.0.1</version>
+	</parent>	
+
+	<artifactId>juddi</artifactId>
+	<packaging>jar</packaging>
+	<name>juddi</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<common.version>0.0.1</common.version>
+		<juddi.version>3.2.1</juddi.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.hua</groupId>
+			<artifactId>common</artifactId>
+			<version>${common.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.juddi</groupId>
+			<artifactId>uddi-ws</artifactId>
+			<version>${juddi.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.juddi</groupId>
+			<artifactId>juddi-client</artifactId>
+			<version>${juddi.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.juddi</groupId>
+			<artifactId>juddi-core</artifactId>
+			<version>${juddi.version}</version>
+		</dependency>
+		
+<!-- 		<dependency>
+			<groupId>org.apache.juddi</groupId>
+			<artifactId>juddiv3-war</artifactId>
+			<version>${juddi.version}</version>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>org.apache.juddi</groupId>
+			<artifactId>juddi-core-openjpa</artifactId>
+			<version>${juddi.version}</version>
+		</dependency>						
+		
+	</dependencies>
+
+</project>

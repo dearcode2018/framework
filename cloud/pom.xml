@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.hua</groupId>
+		<artifactId>framework-entire</artifactId>
+		<version>0.0.1</version>
+	</parent>	
+
+	<artifactId>cloud</artifactId>
+	<packaging>jar</packaging>
+	<name>cloud</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<common.version>0.0.1</common.version>
+		<jclouds.version>1.9.0</jclouds.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.hua</groupId>
+			<artifactId>common</artifactId>
+			<version>${common.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.jclouds</groupId>
+			<artifactId>jclouds-core</artifactId>
+			<version>${jclouds.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.jclouds</groupId>
+			<artifactId>jclouds-compute</artifactId>
+			<version>${jclouds.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.jclouds</groupId>
+			<artifactId>jclouds-blobstore</artifactId>
+			<version>${jclouds.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.jclouds</groupId>
+			<artifactId>jclouds-scriptbuilder</artifactId>
+			<version>${jclouds.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.jclouds</groupId>
+			<artifactId>jclouds-loadbalancer</artifactId>
+			<version>${jclouds.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.jclouds</groupId>
+			<artifactId>jclouds-allcompute</artifactId>
+			<version>${jclouds.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.jclouds</groupId>
+			<artifactId>jclouds-all</artifactId>
+			<version>${jclouds.version}</version>
+		</dependency>										
+		
+	</dependencies>
+
+</project>

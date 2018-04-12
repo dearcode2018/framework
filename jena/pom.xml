@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.hua</groupId>
+		<artifactId>framework-entire</artifactId>
+		<version>0.0.1</version>
+	</parent>	
+
+	<artifactId>jena</artifactId>
+	<packaging>jar</packaging>
+	<name>jena</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<common.version>0.0.1</common.version>
+		<jena.version>2.13.0</jena.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.hua</groupId>
+			<artifactId>common</artifactId>
+			<version>${common.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-arq</artifactId>
+			<version>${jena.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-core</artifactId>
+			<version>${jena.version}</version>
+		</dependency>
+		
+<!-- 		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>apache-jena-libs</artifactId>
+			<version>${jena.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena</artifactId>
+			<version>${jena.version}</version>
+		</dependency>	 -->			
+		
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-querybuilder</artifactId>
+			<version>${jena.version}</version>
+		</dependency>
+		
+<!-- 		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-jdbc-driver-bundle</artifactId>
+			<version>${jena.version}</version>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-security</artifactId>
+			<version>${jena.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-osgi</artifactId>
+			<version>${jena.version}</version>
+		</dependency>								
+				
+	</dependencies>
+
+</project>

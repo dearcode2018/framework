@@ -1,0 +1,23 @@
+apache servicemix
+
+该项目是一个ESB(Enterprise Service Bus 企业服务总线)的实现，最大特色是从核心到应用全面支持OSGI.
+servicemix以karaf为内核，karaf是整合OSGI framework及一些周边基础功能实现而成的OSGI运行时环境.
+所以，servicemix就是在OSGI环境下运行的ESB系统. 此外，servicemix 集成了activemq、camel、aries blueprint
+相关项目，而且可以通过karaf的features不断扩展它具备的功能.
+
+
+
+
+
+
+
+
+
+参考资料:http://www.thinksaas.cn/group/topic/279765/
+
+
+
+
+
+
+

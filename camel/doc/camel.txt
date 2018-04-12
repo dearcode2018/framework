@@ -1,0 +1,32 @@
+Apache Camel(骆驼)
+
+camel 是一个基于规则路由和中介引擎，提供企业集成模式的java对象的实现，
+通过应用程序接口或称为陈述式的java领域特定语言(DSL)来配置路由和处理的规则.
+其核心思想就是从一个from源头得到数据，通过processor处理，再发到一个to的
+目的地.
+
+这个from 和 to 可以是我们在项目集成中经常碰到的类型: 一个FTP文件夹中的文件，
+一个MQ的queue，一个HTTP request/response，一个 webService等.
+
+camel 很容易集成到standalone的应用，在容器中运行的web应用以及和spring一起
+集成，
+
+camel采用URI来描述各种组件，这样可以很方便地与各种传输或消息模块进行交互，
+其中包含的模块有HTTP、ActiveMQ、JMS、JBI、SCA、MINA、CXF Bus API，这些
+模块是采用可插拔的方式来工作的，camel的核心十分小巧可以很容易地将其集成到
+各种Java应用中。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

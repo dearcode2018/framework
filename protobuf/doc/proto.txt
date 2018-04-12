@@ -1,0 +1,24 @@
+
+
+protobuf
+通过执行应用程序加上约定的描述配置，生成java源码，当前使用的是
+google protobuf.
+
+protoc --java_out=src/main/java doc/proto/UserMessage.proto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
