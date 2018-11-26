@@ -14,7 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		
 		<common.version>0.0.1</common.version>
-		<gora.version>0.6</gora.version>
+		<gora.version>0.8</gora.version>
 	</properties>
 
 	<dependencies>
@@ -42,13 +42,7 @@
 			<version>${gora.version}</version>
 		</dependency> -->
 		
-		<dependency>
-			<groupId>org.apache.gora</groupId>
-			<artifactId>gora-shims-hadoop</artifactId>
-			<version>${gora.version}</version>
-		</dependency>
-		
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.apache.gora</groupId>
 			<artifactId>gora-hbase</artifactId>
 			<version>${gora.version}</version>
@@ -58,7 +52,7 @@
 			<groupId>org.apache.gora</groupId>
 			<artifactId>sources-dist</artifactId>
 			<version>${gora.version}</version>
-		</dependency>								
+		</dependency> -->								
 		
 	</dependencies>
 
